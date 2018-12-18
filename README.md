@@ -3,7 +3,7 @@
 * 通过调用Wordcloud和jieba这两个库实现中文词云。
 * 先调用jieba库进行中文分词，再用Wordcloud生成词云。
 * 使用pyqt5生成图形界面  
-![image](https://github.com/mantuoluozk/chinese_wordcloud_pyqt/blob/master/resource/程序截图.png)
+![image](https://github.com/mantuoluozk/chinese_wordcloud_pyqt5/blob/master/resource/%E7%A8%8B%E5%BA%8F%E6%88%AA%E5%9B%BE.png)
 ## 环境
 * python3
 * 安装Wordcloud库，```pip install wordcloud```或conda下```conda install -c conda-forge wordcloud```
