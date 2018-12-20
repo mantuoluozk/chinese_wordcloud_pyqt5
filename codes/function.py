@@ -26,10 +26,10 @@ def run(imgpath,txtpath,color):
     p = path.dirname('.')
 
     # 打开文本
-    text = open(path.join(p, text_path),'r', encoding='UTF-8').read()
+    text = open(path.join(p, text_path),'r', encoding='UTF-8').read()#text = open(path.join(p, text_path)).read()
 
     # 中文分词
-    text = ' '.join(jieba.cut(text))
+    text = ' '.join(jieba.cut(text))   
     print(text[:100])
 
     # 颜色函数
